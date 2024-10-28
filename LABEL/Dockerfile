@@ -1,5 +1,5 @@
 FROM almalinux:9
 LABEL author="chaitanya"
-      Domain="Deevops with aws"
+      domain="Deevops with aws"
       Project="docker"
       
