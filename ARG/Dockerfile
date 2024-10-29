@@ -5,7 +5,7 @@
 # RUN echo "name: $name  , technology: $technology , environment:$environment"
 # CMD ["sleep","100"]
 ARG version
-FROM almalinx:${version}
+FROM almalinux:${version}
 ARG name="chaitanya" \
     technology="Devops" \
     environment="Production"
