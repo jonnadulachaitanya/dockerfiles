@@ -1,4 +1,4 @@
-FROMal almalinux:9
+FROM almalinux:9
 ARG name="chaitanya" \
     technology="Devops" \
     environment="Production"
