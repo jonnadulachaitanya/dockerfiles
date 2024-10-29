@@ -30,7 +30,8 @@ ARG name="chaitanya" \
     technology="Devops" \
     environment="production"
 RUN echo "name:$name"
-ENV environment:$environment
+ENV environment:${environment} \
+    technology:${technology}
 RUN echo "name:$name, technology:$technology"
 CMD ["sleep","100"]
 
