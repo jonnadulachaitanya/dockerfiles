@@ -1,8 +1,8 @@
 FROM almalinux:9
-ARG Technology="Devops" \
-  Cloud="AWS" \
-  Role="DevOps Engineer" \
-  Exp="3yrs" \
+ARG technology="Devops" \
+  cloud="AWS" \
+  role="DevOps Engineer" \
+  exp="3yrs" \
   mail="chaitanya@gmail"
-RUN echo "cloud :$Cloud, Role :$Role, Exp:$Exp"
+RUN echo "cloud :$cloud, Role :$role, Exp:$exp"
 CMD ["sleep", "100"]
