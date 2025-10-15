@@ -4,4 +4,4 @@ RUN mkdir /tmp/docker
 WORKDIR /tmp/docker
 RUN pwd
 RUN echo "Hello" > hello.txt
-CMD ["Sleep", "100"]
+CMD ["sleep", "100"]
