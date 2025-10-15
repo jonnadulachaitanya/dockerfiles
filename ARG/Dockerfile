@@ -7,5 +7,7 @@ ARG technology="Devops" \
   role="DevOps Engineer" \
   exp="3yrs" \
   mail="chaitanya@gmail"
+ENV mail=$mail
+#if we want to access arg values inside container we use ENV
 RUN echo "cloud :$cloud, Role :$role, Exp:$exp"
 CMD ["sleep", "100"]
