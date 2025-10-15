@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version
+FROM almalinux:$version
 ARG technology="Devops" \
   cloud="AWS" \
   role="DevOps Engineer" \
